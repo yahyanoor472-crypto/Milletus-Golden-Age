@@ -1,6 +1,6 @@
 
 def enter():
-    enter = input("Press \"Enter\" to continue")
+    enter = input("Press \"Enter\" to continue : ")
 def intro():
     intro = "Hey! There you are playing \"Rizz Simulator\""
     print(intro)
