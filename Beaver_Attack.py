@@ -1,1 +1,1 @@
-works? huh
+print("hello")
