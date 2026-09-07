@@ -1,3 +1,5 @@
+__version__ = "0.1"
+
 class Beaver:
     def __init__(self , hp , dammage , steps):
         self.hp = hp
@@ -11,9 +13,9 @@ class Player:
 player = Player(50 , 5) 
 while True: 
     enter = input("Enter d or a \nenter: ")
-    if enter == "D" or enter == "d":
+    if enter.strip().lower() == "d":
         player.hp += 2
-    elif enter == "A" or enter == "a":
+    elif enter.strip().lower() == "a":
         b1.hp -= player.dammage
         if b1.hp <= 0:
             print("You have successfully killed the beaver congrats")
